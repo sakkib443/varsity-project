@@ -96,10 +96,9 @@ body{
 }
 
 .hero-section{
-    margin-top: 150px;
    
     background-repeat: no-repeat;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
     
 }
 .bi img{
@@ -111,9 +110,20 @@ body{
 }
 .bi1 img{
     position: absolute;
-    top: 400px;
-    left: 1400px;
+    top: 160px;
+    left: 1230px;
+    z-index: 1;
+    
 
+}
+.hero-pic img{
+    width: 80%;
+    padding-top: 40px;
+    padding-left: 80px;
+    position: relative;
+    z-index: 2;
+    
+    
 }
 .love{
     position: absolute;
@@ -140,7 +150,9 @@ body{
     line-height: 60px;
     margin-bottom: 10px;
 }
-
+.heading-section{
+    padding-top: 140px;
+}
 .wc{
     color: #6f5700;
     font-family: 'Alkatra', cursive;
@@ -192,10 +204,14 @@ body{
     padding-left: 120px;
     margin-top: -30px;
     padding-bottom: 55px;
+    z-index: 2;
+    position: relative;
+    border-radius: 20PX 20PX 20PX 20PX;
 }
 .top-section{
     background-color: #211B52;
     color: #ffffff;
+   
 }
 .top-section p{
     font-weight: 500;
